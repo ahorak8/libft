@@ -5,16 +5,16 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/05 10:13:54 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/05 13:38:02 by ahorak           ###   ########.fr       */
+/*   Created: 2018/08/16 13:50:05 by ahorak            #+#    #+#             */
+/*   Updated: 2018/08/16 13:54:51 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 size_t	ft_strlenc(const char *s, char c)
 {
-	size_t len;
+	size_t	len;
 
 	len = 0;
 	while (*s && *s != c)

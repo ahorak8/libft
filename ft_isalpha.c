@@ -5,14 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/05/25 13:13:42 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 16:01:16 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:09:24 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:09:26 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
-int		ft_isalpha(int c)
+int	ft_isalpha(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (1);

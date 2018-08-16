@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/06 20:48:38 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 20:48:48 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:29:43 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:29:45 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 static int	count_chars(int num)
 {

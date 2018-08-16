@@ -5,16 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/06 15:53:36 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 15:53:58 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:29:28 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:29:30 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
-int		ft_isupper(int c)
+int	ft_isupper(int c)
 {
-	if (c >= 'A' && c <= 'Z')
-		return (1);
-	return (0);
+	return (c >= 65 && c <= 90);
 }

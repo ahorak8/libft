@@ -5,14 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/05/24 15:45:27 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 14:50:09 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:43:35 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:43:37 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
-int		ft_strcmp(const char *s1, const char *s2)
+int	ft_strcmp(const char *s1, const char *s2)
 {
 	while (*s1 && *s1 == *s2)
 	{

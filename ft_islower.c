@@ -5,17 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/05/31 11:26:27 by ahorak            #+#    #+#             */
-/*   Updated: 2018/05/31 11:27:05 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:10:15 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:10:18 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
-int		ft_islower(int c)
+int	ft_islower(int c)
 {
-	if (c >= 'a' && c <= 'z')
-		return (1);
-	else
-		return (0);
+	return (c >= 97 && c <= 122);
 }

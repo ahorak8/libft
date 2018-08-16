@@ -5,14 +5,16 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/05/18 10:54:23 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 18:06:41 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:43:53 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:43:54 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "includes/libft.h"
+
 char	*ft_strcpy(char *dst, const char *src)
 {
-	char	*s2;
+	char *s2;
 
 	s2 = dst;
 	while (*src)

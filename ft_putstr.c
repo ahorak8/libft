@@ -5,21 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/05/15 12:46:48 by ahorak            #+#    #+#             */
-/*   Updated: 2018/05/18 10:07:33 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:38:36 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:38:38 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 void	ft_putstr(char const *s)
 {
-	int i;
-
-	i = 0;
-	while (s[i] != '\0')
-	{
-		ft_putchar(s[i]);
-		i++;
-	}
+	ft_putstr_fd(s, 1);
 }

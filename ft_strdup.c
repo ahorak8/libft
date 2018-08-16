@@ -5,20 +5,19 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/05 11:27:32 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 21:34:03 by ahorak           ###   ########.fr       */
+/*   Created: 2018/08/16 13:45:00 by ahorak            #+#    #+#             */
+/*   Updated: 2018/08/16 13:46:03 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 char	*ft_strdup(const char *s1)
 {
 	char	*s2;
 
-	s2 = (char *)malloc(sizeof(char) * (ft_strlen(s1) + 1));
-	if (s2 == NULL)
+	if (!(s2 = ft_strnew(ft_strlen(s1))))
 		return (NULL);
-	else
-		return (ft_strcpy(s2, s1));
+	ft_strcpy(s2, s1);
+	return (s2);
 }

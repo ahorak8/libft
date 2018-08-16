@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/06 19:52:22 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 19:52:28 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:43:28 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:43:29 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 void	ft_strclr(char *s)
 {

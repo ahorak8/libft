@@ -5,19 +5,19 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/06 21:30:27 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 21:30:38 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:33:29 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:33:30 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 void	*ft_memset(void *b, int c, size_t len)
 {
-	unsigned char	*ptr;
+	t_byte *str;
 
-	ptr = (unsigned char *)b;
+	str = (t_byte *)b;
 	while (len-- > 0)
-		*ptr++ = (unsigned char)c;
+		*str++ = (t_byte)c;
 	return (b);
 }

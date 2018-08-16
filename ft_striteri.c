@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/06 20:00:35 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 20:00:42 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:47:05 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:47:06 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {

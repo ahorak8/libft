@@ -5,14 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/05/25 13:19:12 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 19:39:34 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:50:03 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:50:05 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
-int		ft_tolower(int c)
+int	ft_tolower(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 		return (c + 'a' - 'A');

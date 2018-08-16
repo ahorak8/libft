@@ -5,14 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/01 11:48:16 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 17:42:53 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:31:14 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:31:16 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
-int		ft_memcmp(const void *s1, const void *s2, size_t n)
+int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	unsigned char	*str1;
 	unsigned char	*str2;

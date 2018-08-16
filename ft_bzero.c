@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/05/24 11:46:26 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 16:04:05 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 11:41:04 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 11:41:08 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 void	ft_bzero(void *s, size_t n)
 {

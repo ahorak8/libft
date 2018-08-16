@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/05/24 17:21:45 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 20:56:22 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:37:50 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:37:52 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 void	ft_putnbr(int n)
 {

@@ -5,16 +5,16 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/01 12:24:32 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 19:59:20 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:47:01 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:47:02 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
-void	ft_striter(char *s, void (*f)(char*))
+void	ft_striter(char *s, void (*f)(char *))
 {
-	int		i;
+	int	i;
 
 	i = 0;
 	if (!s || !f)

@@ -5,15 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/05/24 17:45:23 by ahorak            #+#    #+#             */
-/*   Updated: 2018/05/30 20:13:43 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:37:33 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:37:34 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 void	ft_putendl(char const *s)
 {
-	ft_putstr(s);
-	ft_putchar('\n');
+	ft_putendl_fd(s, 1);
 }

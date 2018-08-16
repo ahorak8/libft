@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/06 21:30:56 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 21:31:08 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:32:27 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:32:29 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {

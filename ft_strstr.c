@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/06 14:59:05 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 14:59:19 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:49:44 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:49:46 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 char	*ft_strstr(const char *haystack, const char *needle)
 {

@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/06 14:22:09 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 14:22:21 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:30:34 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:30:36 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 t_list	*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
 {

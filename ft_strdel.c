@@ -5,17 +5,18 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/06 19:47:23 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 19:47:29 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:44:01 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:44:03 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 void	ft_strdel(char **as)
 {
-	if (!as || !*as)
-		return ;
-	free(*as);
-	*as = NULL;
+	if (as != NULL)
+	{
+		free(*as);
+		*as = NULL;
+	}
 }

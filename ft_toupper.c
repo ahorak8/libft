@@ -5,14 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/05/31 11:38:24 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 19:38:08 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:50:10 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:50:12 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
-int		ft_toupper(int c)
+int	ft_toupper(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (c - 'a' + 'A');

@@ -5,12 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/05/29 19:56:58 by ahorak            #+#    #+#             */
-/*   Updated: 2018/05/29 19:57:42 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:10:06 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:10:08 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_isascii(int c)
+#include "includes/libft.h"
+
+int	ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)
 		return (1);

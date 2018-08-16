@@ -5,20 +5,22 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/06 18:35:06 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 18:35:12 by ahorak           ###   ########.fr       */
+/*   Created: 2018/08/16 13:43:30 by ahorak            #+#    #+#             */
+/*   Updated: 2018/08/16 13:44:04 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 char	*ft_strchr(const char *s, int c)
 {
-	int		i;
-
-	i = -1;
-	while (++i < (int)ft_strlen(s) + 1)
-		if (*(s + i) == (char)c)
-			return ((char *)s + i);
+	while (*s != '\0')
+	{
+		if (*s == (char)c)
+			return ((char*)s);
+		s++;
+	}
+	if ((char)c == '\0')
+		return ((char*)s);
 	return (NULL);
 }

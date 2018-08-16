@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/06 21:07:00 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 21:07:18 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 11:41:14 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 11:41:16 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 int	ft_countwords(char const *str, char c)
 {

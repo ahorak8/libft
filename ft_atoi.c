@@ -5,14 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/06 18:41:36 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 18:41:48 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 11:40:48 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 11:40:55 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
-int			ft_atoi(const char *str)
+int	ft_atoi(const char *str)
 {
 	int	res;
 	int	i;

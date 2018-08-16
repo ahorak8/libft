@@ -5,14 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/05 08:51:45 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 20:07:30 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:48:42 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:48:44 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
-int		ft_strnequ(char const *s1, char const *s2, size_t n)
+int	ft_strnequ(char const *s1, char const *s2, size_t n)
 {
 	if (!s1 || !s2)
 		return (0);

@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/06 20:02:36 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 20:03:57 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:47:59 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:48:02 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {

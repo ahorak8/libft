@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/06 21:32:00 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 21:32:18 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:49:57 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:49:59 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 char	*ft_strtrim(char const *s)
 {
@@ -20,12 +20,12 @@ char	*ft_strtrim(char const *s)
 
 	if (!s)
 		return (NULL);
-	while (*s && IS_SPACE(*s))
+	while (*s && ft_isspace(*s))
 		s++;
 	len = ft_strlen(s) == 0 ? 0 : ft_strlen(s) - 1;
 	if (len > 0)
 	{
-		while (IS_SPACE(s[len]))
+		while (ft_isspace(s[len]))
 			len--;
 		len++;
 	}

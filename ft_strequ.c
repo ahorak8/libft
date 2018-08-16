@@ -5,14 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/05 08:48:31 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 20:57:35 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:46:39 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:46:41 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
-int		ft_strequ(char const *s1, char const *s2)
+int	ft_strequ(char const *s1, char const *s2)
 {
 	if (!s1 || !s2)
 		return (0);

@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/06 19:34:46 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 19:34:58 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:08:57 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:09:00 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 int	ft_isalnum(int c)
 {

@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/05 08:55:16 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 18:14:50 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:48:27 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:48:29 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 char	*ft_strncpy(char *dst, const char *src, size_t len)
 {

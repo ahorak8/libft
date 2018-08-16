@@ -5,19 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/05/18 10:50:09 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 21:33:18 by ahorak           ###   ########.fr       */
+/*   Created: 2018/08/16 13:48:42 by ahorak            #+#    #+#             */
+/*   Updated: 2018/08/16 13:49:28 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 size_t	ft_strlen(const char *s)
 {
-	int len;
-
-	len = 0;
-	while (s[len])
-		len++;
-	return (len);
+	return (!*s ? 0 : 1 + ft_strlen(++s));
 }

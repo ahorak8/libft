@@ -5,12 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/05/29 20:07:53 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 19:36:51 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:10:35 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:10:37 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_isprint(int c)
+#include "includes/libft.h"
+
+int	ft_isprint(int c)
 {
 	if (c >= 32 && c < 127)
 		return (1);

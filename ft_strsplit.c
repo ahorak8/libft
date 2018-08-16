@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/06 20:44:06 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 20:47:05 by ahorak           ###   ########.fr       */
+/*   Created: 2018/07/10 12:49:37 by ahorak            #+#    #+#             */
+/*   Updated: 2018/07/10 12:49:39 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 static int	get_word_len(char const *str, char c)
 {

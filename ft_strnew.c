@@ -5,25 +5,19 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ahorak <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/06/06 19:46:07 by ahorak            #+#    #+#             */
-/*   Updated: 2018/06/06 19:46:15 by ahorak           ###   ########.fr       */
+/*   Created: 2018/08/16 13:55:25 by ahorak            #+#    #+#             */
+/*   Updated: 2018/08/16 13:55:30 by ahorak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 char	*ft_strnew(size_t size)
 {
 	char	*str;
-	int		n;
-	int		i;
 
-	i = 0;
-	n = (int)size;
-	if (!(str = (char *)malloc(sizeof(char) * size + 1)))
+	if (!(str = (char*)malloc(sizeof(*str) * (size + 1))))
 		return (NULL);
-	while (n-- > -1)
-		*(str + i++) = '\0';
-	*(str + i) = '\0';
+	ft_bzero(str, size + 1);
 	return (str);
 }
